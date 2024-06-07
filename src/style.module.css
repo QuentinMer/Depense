@@ -1,0 +1,63 @@
+
+.main_container {
+  font-family: Roboto;
+  color: rgb(19, 19, 23);
+  background: url(assets/images/fondAppDepense.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Media queries pour les différentes tailles d'écran */
+@media (max-width: 1200px) {
+  .main_container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main_container {
+    padding: 5px;
+  }
+}
+
+.header {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.income_input {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.workspace {
+  flex: 5;
+  height: 100%;
+  flex-direction: column;
+}
+
+.expense_input {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expense_list {
+  flex: 8;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.expense_total {
+  margin-top: 50px;
+}
